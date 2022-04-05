@@ -16,6 +16,9 @@ EMAIL_SENDER= os.environ.get('EMAIL_SENDER')
 EMAIL_PASSWORD = os.environ.get('EMAIL_PASSWORD')
 EMAIL_RECIPIENT = os.environ.get('EMAIL_RECIPIENT')
 
+pprint.pprint(dict(os.environ), width =1)
+
+"""
 # %% set up email content
 msg = EmailMessage()
 msg['Subject'] = 'Email from Python'
@@ -27,3 +30,4 @@ msg.set_content('Hi! This is email is being sent automatically from Python runni
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
     smtp.login(EMAIL_SENDER, EMAIL_PASSWORD)
     smtp.send_message(msg)
+    """
