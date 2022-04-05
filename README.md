@@ -1,6 +1,6 @@
 ![email-from-python](https://github.com/canovasjm/gh-secrets/workflows/email-from-python/badge.svg) ![email-from-r](https://github.com/canovasjm/gh-secrets/workflows/email-from-r/badge.svg)
 
-# gh-secrets
+#  gh-secrets
 
 El objetivo de este repositorio es mostrar cómo usar *GitHub Secrets* desde Python y R. Para ello escribí dos scripts (uno en Python y el otro en R) con el mismo propósito: enviar un email.  
 
