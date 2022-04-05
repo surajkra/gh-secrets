@@ -10,6 +10,7 @@ Created on Mon Jan 11 21:31:11 2021
 import os
 import smtplib
 from email.message import EmailMessage
+import pprint
 
 # %% get email and password from environment variables
 EMAIL_SENDER= os.environ.get('EMAIL_SENDER')
